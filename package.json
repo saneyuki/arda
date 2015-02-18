@@ -6,12 +6,14 @@
   "scripts": {
     "prepublish": "$(npm bin)/coffee -o lib -c src/*",
     "build": "$(npm bin)/coffee -o lib -c src/*",
+    "build-babel": "babel ./src_babel/ --out-dir ./lib_babel  --modules common",
     "test": "$(npm bin)/mocha --require espower-coffee/guess test/*.coffee -t 100"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
+    "babel": "^4.3.0",
     "bluebird": "^2.9.6",
     "cheerio": "^0.18.0",
     "coffee-script": "^1.9.0",
