@@ -8,7 +8,7 @@
     "build": "$(npm bin)/coffee -o lib -c src/*",
     "build-babel": "babel ./src_babel/ --out-dir ./lib_babel  --modules common",
     "test": "$(npm bin)/mocha --require espower-coffee/guess test/*.coffee -t 100",
-    "test": "$(npm bin)/mocha --require espower-babel/guess test_babel/*.js -t 100"
+    "test-babel": "$(npm bin)/mocha --require espower-babel/guess test_babel/*.js -t 100"
   },
   "author": "",
   "license": "MIT",
