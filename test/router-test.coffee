@@ -1,5 +1,5 @@
 require './spec_helper'
-Arda = require '../src/index'
+Arda = require '../lib_babel/index'
 
 describe "src/router", ->
   describe '#pushContextAndWaitForBack', ->

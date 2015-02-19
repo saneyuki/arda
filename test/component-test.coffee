@@ -1,6 +1,6 @@
 require './spec_helper'
-Component = require '../src/component'
-Arda = require '../src'
+Component = require '../lib_babel/component'
+Arda = require '../lib_babel/index'
 
 describe "src/component", ->
   describe '#dispatch', ->

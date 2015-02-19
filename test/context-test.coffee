@@ -1,6 +1,6 @@
 require './spec_helper'
-Arda = require '../src'
-Context = require '../src/context'
+Arda = require '../lib_babel/index'
+Context = require '../lib_babel/context'
 
 describe "src/context", ->
   describe '#update', ->
